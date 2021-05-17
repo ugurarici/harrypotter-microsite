@@ -19,11 +19,11 @@ h1, h2, h3 {
 
 p.text-blue#first {
     color: blue;
-}
+}*/
 
 .underline {
     text-decoration: underline;
-} */
+} 
 
 #header_image {
     width: 100%;
@@ -66,3 +66,63 @@ main img:hover {
     border-radius: 1.6em;
     box-shadow: -5px -5px 20px black;
 }
+
+ul{
+    list-style-image: url('icon.png');
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid brown;
+}
+
+th, td{
+    padding: 0.5rem;
+}
+
+th{
+    text-align: left;
+    font-weight: normal;
+    background-color: rgba(165, 42, 42, 0.8);
+    color: white;
+    font-family: 'Texturina', serif;
+    font-size: 1.3em;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(206, 136, 136, 0.8);
+}
+
+table tr:hover{
+    background-color: rgba(305, 136, 136, 0.95);
+}
+
+blockquote{
+    font-family: 'Texturina', serif;
+    font-size: 1.4em;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    transition: color ease 150ms;
+}
+
+a:visited{
+    color: rgba(165, 142, 42, 0.5);
+    /* text-decoration: line-through; */
+    /*
+    :visited için getirilen kısıtlamalardan ötürü text-decoration ataması burada çalışmaz
+    detaylar: https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
+    */
+}
+
+a:hover{
+    color: black;
+}
+
+
